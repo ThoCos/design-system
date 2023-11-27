@@ -7,7 +7,7 @@
     <template #navigation>
       <NavsNav>
         <template #logo>
-          <TitresLogo>Design System</TitresLogo>
+          <TitresLogo>DictatoryHub</TitresLogo>
         </template>
 
         <template #links>

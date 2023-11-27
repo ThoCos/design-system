@@ -18,7 +18,8 @@ export const form = `<InputsForm>
   <InputsGroup class="max-w-xs">
     <InputsLabel name="nom">Nom</InputsLabel>
     <InputsTexte v-model="nom" name="nom" placeholder="Votre nom" />
-  </InputsGroup>
+  </InputsGroup>;
+  
 
   <InputsGroup class="max-w-xs">
     <InputsLabel name="prenom">Prénom</InputsLabel>

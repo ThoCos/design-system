@@ -10,11 +10,24 @@ const code = `<TextesCode code="${consoleLog}" language="js" />`;
 <template>
   <Container>
     <TitresH1>Textes</TitresH1>
+    <!-- ======================================= -->
 
-    <TextesParagraphe>
-      Utilisez les composants de texte pour afficher des paragraphes ou des
-      blocks de code, etc.
-    </TextesParagraphe>
+    <TitresH2>Gras</TitresH2>
+    <TextesGras>Texte en gras</TextesGras>
+    <TextesCode code="<TextesGras> Texte à mettre en gras </TextesGras>" />
+    <!-- ======================================= -->
+
+    <TitresH2>Italique</TitresH2>
+    <TextesItalique>Texte en Italique</TextesItalique>
+    <TextesCode
+      code="<TextesItalique> Texte à mettre en italique </TextesItalique>"
+    />
+    <!-- ======================================= -->
+
+    <TitresH2>Souligné</TitresH2>
+    <TextesSouligne>Texte en gras</TextesSouligne>
+    <TextesCode code="<TextesSouligne> Texte à souligner </TextesSouligne>" />
+    <!-- ======================================= -->
 
     <TitresH2>Paragraphe</TitresH2>
 
